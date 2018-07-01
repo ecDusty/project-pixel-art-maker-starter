@@ -1,4 +1,6 @@
-# Pixel Art Maker Project
+# Erin's Pixel Art Maker Project
+
+Finished making this project my own! Fun going through basic JS again.
 
 ## Table of Contents
 
