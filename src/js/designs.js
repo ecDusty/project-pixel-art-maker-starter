@@ -1,3 +1,8 @@
+/*================================
+    Welcome to Erin's Pixel Art
+    Project Challenge. 
+            Enjoy Drawing!
+=================================*/
 
 
 function makeGrid() {
