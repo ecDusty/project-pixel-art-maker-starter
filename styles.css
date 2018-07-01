@@ -38,3 +38,29 @@ td {
 input[type=number] {
     width: 6em;
 }
+
+#pixelCanvas {
+    display: inline-block;
+}
+
+.pixRow {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #000;
+    height: 20px;
+}
+
+.pixRow:last-child {
+    border-bottom: 1px solid #000;
+}
+
+.pixBlock {
+    max-width:20px;
+    height: 100%;
+    width: 20px;
+    border-left: 1px solid #000;
+}
+
+.pixBlock:last-child {
+    border-right: 1px solid #000;
+}
