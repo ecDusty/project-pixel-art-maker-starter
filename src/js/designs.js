@@ -11,7 +11,7 @@ function makeGrid() {
     pixCanvas.innerHTML = '';
 
     //Function that sets background color
-    function setColor(el) {
+    function setColor() {
         this.style.backgroundColor = pColor.value;
     }
 
@@ -33,7 +33,7 @@ function makeGrid() {
         }
 
         pixCanvas.appendChild(pixRow);
-        i++
+        i++;
     }
 
 }
@@ -42,7 +42,6 @@ function makeGrid() {
 // Grab the action button, and link it to making the grid. Always make sure to prevent default, so the page doesn't reload.
 const button = document.getElementById('Submit');
 button.addEventListener('click', function(e) {
-    
     e.preventDefault();
     makeGrid();
 });
