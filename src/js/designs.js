@@ -11,9 +11,9 @@ function makeGrid() {
     const pixCanvas = document.getElementById('pixelCanvas');
     let divEl = document.createElement('div');
 
-    do {
-        let i = 0;
-    } while (i < gHeight) {
+    let i = 0;
+    
+    while (i < gHeight) {
         let pixRow = divEl;
         pixRow.className = 'pixRow';
 
@@ -32,4 +32,8 @@ function makeGrid() {
 }
 
 const button = document.getElementById('Submit');
-button.onclick(makeGrid);
+button.addEventListener('click', function(e) {
+    
+    e.preventDefault();
+    makeGrid();
+});
