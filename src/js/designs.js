@@ -6,7 +6,8 @@
 function makeGrid() {
 
 // Your code goes here!
-
+    const gHeight = $('#inputHeight').val();
+    const gWidth = $('#inputWidth').val();
 
 }
 
