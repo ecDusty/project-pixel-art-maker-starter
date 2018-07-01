@@ -32,4 +32,4 @@ function makeGrid() {
 }
 
 const button = document.getElementById('Submit');
-button.onclick(makeGride);
+button.onclick(makeGrid);
