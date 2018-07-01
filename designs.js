@@ -7,4 +7,10 @@ function makeGrid() {
 
 // Your code goes here!
 
+
 }
+
+$('form input[type="submit"]').click(function(e) {
+    e.preventDefault();
+    makeGrid();
+});
