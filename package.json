@@ -1,0 +1,23 @@
+{
+  "name": "udacity-p3-pixel-art",
+  "version": "1.0.0",
+  "description": "Pixel art maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecDusty/udacity-project-3-pixel-art.git"
+  },
+  "author": "Erin Macalligan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecDusty/udacity-project-3-pixel-art/issues"
+  },
+  "homepage": "https://github.com/ecDusty/udacity-project-3-pixel-art#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^5.0.0"
+  }
+}
